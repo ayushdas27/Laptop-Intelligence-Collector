@@ -8,6 +8,16 @@
 
 ---
 
+## 📥 Download
+
+<a href="https://github.com/ayushdas27/Laptop-Intelligence-Collector/releases/latest/download/Laptop_Intelligence_Collector_v1.0.zip">
+  <img src="https://img.shields.io/badge/⬇_Download_Setup-v1.0-brightgreen?style=for-the-badge&logo=windows" alt="Download Setup" />
+</a>
+
+> **Steps:** Download the zip → Extract → Open terminal in folder → Run `python main.py`
+
+---
+
 ## 📋 Overview
 
 **Laptop Intelligence Collector** is a Python-based tool that automatically gathers detailed system information from a Windows laptop and compiles it into three output formats:
