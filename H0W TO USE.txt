@@ -1,0 +1,15 @@
+To execute the script, right-click inside the folder, select Open in Terminal, and run the command "python main.py". This will generate an Output folder containing your PC's information reports; you can then verify your public network details at ipinfo.io and manually check your DNS cache by running "ipconfig /displaydns" in the terminal.
+
+You can cross-check the rest of your collected system data using the following diagnostic websites to see exactly what your PC exposes to the internet:
+
+-ipinfo.io or whatismyip.com: Verifies your Public IPv4/IPv6 addresses, Internet Service Provider (ISP), and approximate network geolocation to match your network report.
+
+-dnsleaktest.com: Identifies the actual DNS servers routing your web traffic, which you can compare against the DNS cache and configured servers pulled by the script.
+
+-deviceinfo.me: Analyzes client-side data to confirm the operating system, CPU cores, installed RAM, and system architecture your browser exposes online.
+
+-canyouseeme.org: Tests your router and Windows Firewall configurations by pinging your local listening TCP ports to see if they are exposed to the outside world.
+
+-browserleaks.com: Runs advanced network and security checks, including WebRTC diagnostics, which can reveal your Private (Local) IP address and media devices to external websites.
+
+-coveryourtracks.eff.org: Checks your digital fingerprint to show how your specific hardware, OS version, and system configurations create a unique, trackable identifier.

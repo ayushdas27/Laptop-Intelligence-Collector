@@ -1,0 +1,21 @@
+# Output directory (contains machine-specific data)
+Output/
+
+# Windows system files
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
